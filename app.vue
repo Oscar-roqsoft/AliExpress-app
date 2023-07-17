@@ -1,5 +1,5 @@
 <template>
-    <div class="fixed z-[-1] bg-[#F2F2F2] w-full min-h-screen">
+    <div class=" z-[-1] bg-[#F2F2F2] w-full ">
       <NuxtLayout>
         <NuxtPage/>
       </NuxtLayout>

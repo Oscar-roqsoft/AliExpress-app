@@ -3,11 +3,11 @@
         <TopMenu />
         <MainHeader/>
         <Loading v-if="userStore.isLoading" />
-        <!-- <div class="lg:pt-[150px] md:pt-[130px] pt-[80px]" /> -->
-       
-
+        <div class="lg:pt-[50px] md:pt-[20px] pt-[10px]" />
         <slot />
-        <footHeader />
+
+        <FootHeader/>
+
     </div>
 </template>
 
