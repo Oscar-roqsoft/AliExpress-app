@@ -37,26 +37,61 @@ export const useUserStore = defineStore('user', {
           price: 449
       },
       {
-        id: 5,
+        id: 6,
         title: 'title 5',
         description: 'this is description',
         url: "/balenciaga.jpeg",
         price: 449
       },
       {
-        id: 5,
+        id: 7,
         title: 'title 5',
         description: 'this is description',
         url: "/balenciaga.jpeg",
         price: 449
       },
       {
-        id: 5,
+        id: 8,
         title: 'title 5',
         description: 'this is description',
         url: "/blackshoe.jpeg",
         price: 449
-      }
+      },
+      {
+        id: 9,
+        title: 'title 5',
+        description: 'this is description',
+        url: "/blackshoe.jpeg",
+        price: 449
+      }, 
+      {
+        id: 10,
+        title: 'title 5',
+        description: 'this is description',
+        url: "/blackshoe.jpeg",
+        price: 449
+      },
+      {
+        id: 11,
+        title: 'title 5',
+        description: 'this is description',
+        url: "/blackshoe.jpeg",
+        price: 449
+      },
+      {
+        id: 12,
+        title: 'title 5',
+        description: 'this is description',
+        url: "/blackshoe.jpeg",
+        price: 449
+      },
+      {
+        id: 13,
+        title: 'title 5',
+        description: 'this is description',
+        url: "/blackshoe.jpeg",
+        price: 449
+      },
     ]
   }),
   persist: true
