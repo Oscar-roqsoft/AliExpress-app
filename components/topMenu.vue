@@ -36,7 +36,7 @@ let isIconMenu = ref(true)
                     </div>
                     <div v-if="isAccountMenu"
                        class="absolute bg-white w-[235px]  text-[#333333] z-40 top-[39px]
-                        -left-[147px] border-x border-b shadow" >
+                        -left-[125px] border-x border-b shadow" >
                         <div v-if="!user">
                             <div class="text-semibold text-[15px] my-4 px-3">Welcome to AliExpress!</div>
                             <div class="flex items-center gap-1 px-3 mb-3">

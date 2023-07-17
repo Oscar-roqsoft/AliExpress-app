@@ -10,7 +10,7 @@ let searchItem = ref('')
 
 
 <template>
-        <div id="mainHeader"  class="fixed flex items-center w-full bg-white">
+        <div id="mainHeader"  class="flex items-center w-full bg-white">
         <div class="flex lg:justify-start justify-between gap-8 max-w-[1150px] w-full px-2 py-5 mx-auto">
             <NuxtLink to="/" class="min-w-[170px]">
                 <img 
@@ -52,8 +52,8 @@ let searchItem = ref('')
             </div>
 
             <nuxt-link to="shoppingcart" class="flex items-center">
-                <button class="relative md:block hidden" @pointerenter=" isCartHover = true" 
-                   @pointerleave="isCartHover = false">
+                <button class="relative md:block hidden" @mouseenter=" isCartHover = true" 
+                   @mouseleave="isCartHover = false">
                    <span class="absolute flex items-center justify-center -right-[3px]  top-0
                    bg-[#FF4646]  h-[17px] min-w-[17px] text-xs text-white px-0.5 rounded-full">
                       0

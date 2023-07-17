@@ -1,11 +1,13 @@
 <template>
-    <div class="w-full fixed z-50 font-sans">
+    <div class="w-full  z-50 font-sans">
         <TopMenu />
-        <!-- <Loading v-if="userStore.isLoading" /> -->
-        <!-- <div class="lg:pt-[150px] md:pt-[130px] pt-[80px]" /> -->
         <MainHeader/>
+        <Loading v-if="userStore.isLoading" />
+        <!-- <div class="lg:pt-[150px] md:pt-[130px] pt-[80px]" /> -->
+       
+
         <slot />
-         <!-- <footer v-if="!userStore.isLoading"/> -->
+        <footHeader />
     </div>
 </template>
 
