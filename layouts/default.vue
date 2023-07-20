@@ -2,7 +2,7 @@
     <div class="w-full  z-50 font-sans">
         <TopMenu />
         <MainHeader/>
-        <Loading v-if="userStore.isLoading" />
+        <Loading v-if="userStore.isLoading = false" />
         <div class="lg:pt-[50px] md:pt-[20px] pt-[10px]" />
         <slot />
 

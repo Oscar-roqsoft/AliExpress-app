@@ -1,16 +1,10 @@
 
-<script setup>
-let isSearching = ref(false)
-let isCartHover = ref(false)
-let searchItem = ref('')
-</script>
-
 
 
 
 
 <template>
-        <div id="mainHeader"  class="flex items-center w-full bg-white">
+    <div id="mainHeader"  class="flex items-center w-full bg-white">
         <div class="flex lg:justify-start justify-between gap-8 max-w-[1150px] w-full px-2 py-5 mx-auto">
             <NuxtLink to="/" class="min-w-[170px]">
                 <img 
@@ -69,10 +63,20 @@ let searchItem = ref('')
             </nuxt-link>
 
 
-             <button  @click="userStore.isMenuOverlay = true" class="md:hidden block rounded-full p-1.5 -mt-[4px] hover:bg-gray-200">
+            <button  @click="userStore.isMenuOverlay=true" 
+             class="md:hidden block rounded-full p-1.5 -mt-[4px] hover:bg-gray-200">
                    
                    <Icon name="radix-icons:hamburger-menu" size="33" />
             </button>
         </div>
     </div> 
 </template>
+
+<script setup>
+import { useUserStore } from '~/stores/user';
+const userStore = useUserStore()
+let isCartHover = ref(false)
+let isSearching = ref(false)
+let searchItem = ref('')
+let items = ref(null)
+</script>
